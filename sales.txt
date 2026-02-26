@@ -1,0 +1,59 @@
+
+==============================
+DATE: 2026-02-22T10:55:33.022207700
+Items Sold:
+Rice & Beef x 1 = M50
+Rice & Chicken x 1 = M60
+
+TOTAL: M110.0
+PAID: M240.0
+CHANGE: M130.0
+==============================
+
+==============================
+DATE: 2026-02-22T10:59:39.079514700
+Items Sold:
+Rice & Beef x 1 = M50
+Rice & Chicken x 1 = M60
+Custard & Jelly (M15)
+Soda (M10)
+
+TOTAL: M135.0
+PAID: M150.0
+CHANGE: M15.0
+==============================
+
+==============================
+DATE: 2026-02-22T12:21:02.572311200
+Items Sold:
+Rice & Beef x 1 = M50
+Rice & Chicken x 1 = M60
+Custard & Jelly (M15)
+
+TOTAL: M125.0
+PAID: M576.0
+CHANGE: M451.0
+==============================
+
+==============================
+DATE: 2026-02-24T03:48:01.846371700
+Items Sold:
+Rice & Beef x 1 = M50
+Rice & Chicken x 2 = M120
+Juice (M12)
+
+TOTAL: M182.0
+PAID: M200.0
+CHANGE: M18.0
+==============================
+
+==============================
+DATE: 2026-02-24T09:58:40.908804600
+Items Sold:
+Rice & Chicken x 1 = M60
+Custard & Jelly (M15)
+
+TOTAL: M75.0
+PAID: M100.0
+CHANGE: M25.0
+==============================
