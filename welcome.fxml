@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.restaurentsystem.HelloApplication"
+      alignment="CENTER"
+      spacing="20">
+
+    <Label text="WELCOME TO RESTAURANT SYSTEM"
+           style="-fx-font-size:22px; -fx-font-weight:bold;" />
+
+    <Button text="Enter System" onAction="#openRestaurant"/>
+
+</VBox>

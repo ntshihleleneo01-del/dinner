@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="15" style="-fx-background-color: linear-gradient(to bottom right, #ffecd2, #fcb69f); -fx-background-color: aqau; -fx-padding: 40;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.restaurentsystem.SignupController">
+
+    <Label style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #d84315;" text="SIGN UP" />
+
+    <VBox spacing="10" style="-fx-padding: 25; -fx-background-color: rgba(255,255,255,0.85); -fx-background-radius: 15;">
+        <Label style="-fx-font-size: 14px; -fx-font-weight: bold;" text="Username:" />
+        <TextField fx:id="txtUsername" promptText="Enter username" style="-fx-font-size: 14px;" />
+
+        <Label style="-fx-font-size: 14px; -fx-font-weight: bold;" text="Password:" />
+        <PasswordField fx:id="txtPassword" promptText="Enter password" style="-fx-font-size: 14px;" />
+
+        <HBox alignment="CENTER" spacing="15" style="-fx-padding: 15 0 0 0;">
+            <Button onAction="#handleSignup" style="-fx-background-color: #fb8c00; -fx-text-fill: white; -fx-font-weight: bold;" text="Register" />
+            <Button onAction="#backToLogin" style="-fx-background-color: #6a1b9a; -fx-text-fill: white; -fx-font-weight: bold;" text="Back to Login" />
+        </HBox>
+    </VBox>
+
+    <Label fx:id="lblMessage" style="-fx-text-fill: red; -fx-font-weight: bold;" text="" />
+</VBox>
